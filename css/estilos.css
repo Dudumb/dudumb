@@ -1,0 +1,37 @@
+.container{
+    background-color: #13111b;
+}
+
+body{
+    text-align: center;
+    background-color: #1d1927;
+}
+
+canvas{
+    background:url('../midia/sky.jpg');
+}
+
+.direcionais button{
+    float: left;
+}
+
+.descer{
+    clear: both;
+}
+
+button{
+    border-radius: 30px;
+    
+    background-color: rgb(73, 158, 228);
+    color: rgb(64, 0, 80);
+    padding: 15px;
+}
+
+button svg{
+    width: 50px;
+    height: 50px;
+}
+
+button:hover{
+    background-color: rgb(21, 47, 68);
+}
